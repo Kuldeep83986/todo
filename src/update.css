@@ -1,0 +1,64 @@
+/* Container for the update task form */
+.update-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #ecf0f1;
+}
+
+.update-form {
+    background-color: #2c3e50;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.update-header {
+    color: #ecf0f1;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.update-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.update-button {
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.update-button:hover {
+    background-color: #16a085;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .update-form {
+        padding: 20px;
+    }
+
+    .update-header {
+        font-size: 20px;
+    }
+
+    .update-input, .update-button {
+        font-size: 14px;
+    }
+}
